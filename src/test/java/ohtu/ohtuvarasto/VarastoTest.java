@@ -126,7 +126,6 @@ public class VarastoTest {
         assertEquals(10, varasto2.getSaldo(), vertailuTarkkuus);
     }
     
-    
     @Test
     public void oikeaTulostus() {
         assertEquals("saldo = 2.0, vielä tilaa 8.0", varasto3.toString());
