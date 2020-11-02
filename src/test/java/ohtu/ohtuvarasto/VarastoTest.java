@@ -123,7 +123,7 @@ public class VarastoTest {
     @Test 
     public void saldoEiOleIsompiKuinTilavuus() {
         Varasto varasto2 = new Varasto(10, 11);
-        assertEquals(10, varasto2.getSaldo(), vertailuTarkkuus);
+        ssertEquals(10, varasto2.getSaldo(), vertailuTarkkuus);
     }
     
     
